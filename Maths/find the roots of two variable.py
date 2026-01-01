@@ -1,0 +1,7 @@
+a=int(input("aX^2->a=\t:"))
+b=int(input("bX->b=\t:"))
+c=int(input("c?->c=\t:"))
+x1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+x2=(-b-(b**2-4*a*c)**0.5)/(2*a)
+print(f"X1={format(x1,".2f")}")
+print(f"X2={format(x2,".2f")}")
